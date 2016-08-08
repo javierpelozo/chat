@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  background-color: #F1EFEF;
+  background-attachment:fixed;
+  background-size: cover;
+}
+
+#header {
+  padding: 0;
+  position: fixed;
+  z-index: 1;
+  float: left;
+  margin-top: 0;
+  text-align: center;
+  background: #333;
+  color: white;
+  height: 0;
+  width: 100%;
+}
+
+#chat {
+  padding-top: 85px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+  padding: 0 10px;
+  position: relative;
+}
+
+ul li span:first-of-type {
+  font-weight: bold;
+}
+
+input {
+  width: calc(100% - 20px);
+  font-size: 18px;
+  line-height: 35px;
+  background: #FEFEFE;
+  border: 0;
+  margin-top: 10px;
+  padding: px 0px;
+  outline: 0;
+  position: fixed;
+  bottom: 10px;
+  z-index: 1;
+  box-shadow: 0px 3px 19px -3px #000;
+  bottom: 0;
+}
+
+button {
+  display: none;
+}
+
+input:not([type]), input[type=text],
+input[type=password], input[type=email],
+input[type=url], input[type=time],
+input[type=date], input[type=datetime],
+input[type=datetime-local], input[type=tel],
+input[type=number], input[type=search],
+textarea.materialize-textarea {
+  background-color: #F1EFEF;
+  border: 1px solid #2095F3;
+  border-radius: 0;
+  outline: none;
+  height: 3rem;
+  width: 100%;
+  font-size: 1rem;
+  margin: 0 0 0 0;
+  padding: 0;
+  box-shadow: none;
+  box-sizing: content-box;
+  transition: all 0.3s;
+}
