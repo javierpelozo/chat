@@ -1,5 +1,4 @@
-
-# Chat 1.0 (Demo) :neckbeard: 
+# :e-mail: Chat 1.0 (Demo)
 
 > ## Uso
 
